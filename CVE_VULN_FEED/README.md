@@ -20,11 +20,11 @@ based on AS-attribution (SOC) or Country-attribution (CERT)
 
 
 
-whenver a critical vulnerability is published that matches the following
+whenever a critical vulnerability is published that matches the following
 criteria:
 
 - [CVSS-Score](https://nvd.nist.gov/vuln-metrics/cvss) >= 9
-- Remote
+
 - userInteraction == None
 - privilegesRequired == None
 - ( confidentialityImpact == HIGH  OR availabilityImpact == HIGH OR integrityImpact == HIGH)
@@ -33,7 +33,7 @@ criteria:
 
 which translates usually to [RCE](https://searchwindowsserver.techtarget.com/definition/remote-code-execution-RCE)
 or unauthorized Data-Access, or a 0-day or exploit_campaign going on, 
-we use <u>super sophisticated cyber</u> OSINT-methods to identify
+we use <strike>super sophisticated cyber</strike> OSINT-methods to identify
 servers and/or services that might fall into the category of beeing affected by the vuln/exploit.
 
 we then extract the belonging IPs, check which country/as they are attributed, an generate country_based lists
