@@ -73,10 +73,26 @@ there are as well short helping-docs in each CVE-dir:
 
 **we do not, under any circumstances, make a vulnscan**
 
+
+## basic principles
+
+
 the assumption is: when a vuln/0day comes out, and we take data from that day or before, and we can
 say with a high confidentiality, that an exploit is not super-artificial, we assume
 that all found system from that day ore bevore are **potentially**
 vulnerable.
+
+there is an article by Microsoft ["Ransomware groups continue to target healthcare, critical services; here’s how to reduce risk"](https://www.microsoft.com/security/blog/2020/04/28/ransomware-groups-continue-to-target-healthcare-critical-services-heres-how-to-reduce-risk/),
+published in April 2020, that explains quite well the problem of an unamanged external attack_surface: 
+
+**Vulnerable and unmonitored internet-facing systems provide easy access to human-operated attacks**
+ 
+VULN_ALERTS can definetly help ORGs patch faster and hopefully understand that concept of "external attack_surface".
+only if you understand this concept, you are able to minimize you attack_surface, thus be less vulnerable to external attacks
+and improve your overall security.
+
+
+![ransomware-by-ms](ransomware-by-ms.png)
 
 
 
