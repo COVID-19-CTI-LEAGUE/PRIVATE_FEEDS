@@ -1,7 +1,12 @@
 
-## Readme for CVE_VULN_FEED
 
-this is a short readme for the COVID-CTI-League CVE_VULN_FEED
+## Readme for COVID_CTI-League CVE_VULN_FEED
+
+this is a short readme for the [COVID-CTI-League CVE_VULN_FEED](https://github.com/COVID-19-CTI-LEAGUE/PRIVATE_FEEDS/tree/master/CVE_VULN_FEED)
+to be accessed from the outside.
+
+Reference: [Welcome to the CTI League](https://cti-league.com/)
+
 
 ## what it is
 
@@ -38,6 +43,19 @@ servers and/or services that might fall into the category of beeing affected by 
 
 we then extract the belonging IPs, check which country/as they are attributed, an generate country_based lists
 for easier access.
+
+our baseline: that moment a CVE comes out or a 0day,
+all affected devices are to be considered possibly
+vulnerable. if we take a pure device/service-scan
+from the day bevore (pure OSINT) we have a
+list of targets
+
+these method worked very well with recent vulns of
+technologgies like WebLogic/Liferay - Applicationservers,
+PulseVPN/Citrix/Netscaler-VPN-Gateways, and Exchange/OWA-Vulns.
+YMMV, but better safe than sorry, especially by internet-facing
+applications and appliances.
+
 
 ![data-details.png](data-details.png)
 
