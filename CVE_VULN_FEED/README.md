@@ -74,8 +74,8 @@ there are as well short helping-docs in each CVE-dir:
 **we do not, under any circumstances, make a vulnscan**
 
 the assumption is: when a vuln/0day comes out, and we take data from that day or before, and we can
-say with a high conidentiality, that an exploit is not super-artificial, we assume
-that all found system from that day ore bevore are potentially
+say with a high confidentiality, that an exploit is not super-artificial, we assume
+that all found system from that day ore bevore are **potentially**
 vulnerable.
 
 
